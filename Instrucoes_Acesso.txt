@@ -1,0 +1,105 @@
+Projeto desenvolvido para etapa de processo seletivo com foco na linguagem PHP. 
+
+Objetivo geral: desenvolver CRUD MVC de cadastro de funcionário com tabelas relacionais para N 
+números de telefones.
+
+Funcionalidades básicas dos requisitos foram atendidas.
+
+
+
+
+
+------------------------------ Instruções e Informações Gerais ----------------------------------
+
+1- O projeto_desafio_PHP foi desenvolvido e testado localmente na plataforma Windows, valendo-se do
+arcabouço de servidores e ferramentas WampServer (versão 3.2.0 -32bit X86) cujo arquivo executável 
+está disponível para instalação na própria pasta do projeto;
+
+2- O Wamp server quando instalado possui a ele integrado:
+	2.1- Servidor web Apache;
+	2.2- Interpretador PHP;
+	2.3- Servidor de Banco de Dados MySQL;
+
+   Por já possuir todas essas configurações na própria instalação, é recomendado que o projeto-
+desafio seja testado dentro de uma instalação do Wamp Server;
+
+3- Baixar o projeto_desafio_PHP compactado e descompactá-lo;
+
+
+
+
+------------ Instruções para instalação do Wamp Server na plataforma Windows --------------------
+
+1-  Seguir próprias orientações ditadas pelo desenvolvedor da ferramenta. Essas orientações 
+estão disponíveis no arquivo chamado "Modo_instalacao_Wampp". Esse arquivo encontra-se na 
+pasta do projeto-desafio. Nesse arquivo também se encontra as informações de versões dos 
+servidores e ferramentas utilizadas no desenvolvimento do projeto_desafio_PHP;
+
+2- Mais informações no link do desenvolvedor da ferramenta WampServer abaixo:
+
+https://www.wampserver.com/en/
+
+
+
+
+------------ Instruções para importação do script da base de dados ------------------------------
+
+1- Instalados o WampServer e todas as bibliotecas Visual C++ requeridas conforme disposto no 
+arquivo "Modo_instalacao_Wampp", execute o WampServer;
+
+2- No ícone do WampServer mostrado no canto inferior direito da tela, acesse phpMyAdmin
+   Usuário padrão: 'root';
+   Senha padrão: normalmente não há senha pré-cadastrada. Portanto, deixar em branco;
+
+3- Importar o arquivo vik.sql (disponibilizado na pasta do projeto-desafio-PHP) para a base de dados
+mysql do WambServer. 
+
+	*******OBS: O nome da base de dados deve ser necessariamente nomeada como vik. As tabelas
+		    devem estar dentro dessa base. Faça os devidos ajustes, caso necessário. 
+
+        ******* Ajuda para importação no link abaixo:
+ 
+https://help.one.com/hc/pt/articles/115005588189-Como-importar-uma-base-de-dados-para-o-phpMyAdmin-
+
+4- A base de dados já será carregada com alguns registros que podem ser alterados ou excluídos 
+normalmente durante o uso da aplicação;
+
+
+---------------------- Instruções para transferência da pasta com arquivos .php -------------------
+
+
+1- Copiar a pasta de nome "desafioVik" da pasta projeto_desafio_PHP para a pasta de nome "www" que 
+fica na pasta de instalação do WampServer. A pasta de instalação do "WampServer" deve estar na raiz
+ "C://" da plataforma Windows -conforme orientações de instalação-;
+
+2- Execute os serviços do WampServer. Se todos os serviços do WampServer estiverem rodando na 
+máquina, basta abrir o navegador Chrome e digitar na URL sem aspas: "localhost:80/desafioVik/view/
+
+3- O sistema já pode ser testado.
+
+
+
+----------------------------- Instruções de usuário da aplicação ----------------------------------
+
+
+1- A partir da página principal pode-se listar ou cadastrar funcionário;
+
+2- Para realizar cadastro,primeiramente cadastra-se o funcionário, então o usuário é direcionado para
+cadastrar telefone;
+
+3- A partir da página que lista todos funcionários cadastrados, é possível excluir ou editar 
+funcionário e excluir ou inserir telefone para um usuário em específico;
+
+
+
+-------------------------------------- Possíveis Melhorias ----------------------------------------
+
+1- Refatorar os códigos da aplicação para melhor estruturação MVC;
+
+2- Modulação de arquivos php com funções de CRUD mais ou menos de mesma classe;
+
+3- Dinamizar as páginas com Javascript para melhorar interação com usuário;
+
+4- Reduzir o número de páginas html, trabalhando com os eventos de Javascript;
+
+5- Desenvolver tratamento de caracteres especiais e validação de formulário;
