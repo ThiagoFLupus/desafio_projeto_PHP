@@ -13,7 +13,10 @@ Funcionalidades básicas dos requisitos foram atendidas.
 
 1- O projeto_desafio_PHP foi desenvolvido e testado localmente na plataforma Windows, valendo-se do
 arcabouço de servidores e ferramentas WampServer (versão 3.2.0 -32bit X86) cujo arquivo executável 
-está disponível para instalação na própria pasta do projeto;
+não está disponível para instalação na própria pasta do projeto devido ao tamanho do arquivo. 
+Entretanto pode ser baixado no link abaixo:
+
+https://www.filehorse.com/download-wampserver-32/download/
 
 2- O Wamp server quando instalado possui a ele integrado:
 	2.1- Servidor web Apache;
