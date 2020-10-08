@@ -26,7 +26,7 @@ https://www.filehorse.com/download-wampserver-32/download/
    Por já possuir todas essas configurações na própria instalação, é recomendado que o projeto-
 desafio seja testado dentro de uma instalação do Wamp Server;
 
-3- Baixar o projeto_desafio_PHP compactado e descompactá-lo;
+3- Baixar o projeto_desafio_PHP compactado a partir do repositório github e descompactá-lo;
 
 
 
